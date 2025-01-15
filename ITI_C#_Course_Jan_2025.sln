@@ -10,8 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalPackages", "ExternalPackages\ExternalPackages.csproj", "{D8F6F87D-0CA0-46C6-9A94-6E9D403FE031}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resouces", "Resouces", "{C8FBB631-1DFD-4219-9D34-1FA0131EF709}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DayTwo", "DayTwo", "{DE224C79-1A94-497B-987E-9CD8DE94D764}"
 	ProjectSection(SolutionItems) = preProject
-		Resouces\DayTwo.pdf = Resouces\DayTwo.pdf
+		Resouces\DayTwo\DayTwo.pdf = Resouces\DayTwo\DayTwo.pdf
+		Resouces\DayTwo\DayTwo_Assignment.pdf = Resouces\DayTwo\DayTwo_Assignment.pdf
 	EndProjectSection
 EndProject
 Global
@@ -35,5 +38,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE224C79-1A94-497B-987E-9CD8DE94D764} = {C8FBB631-1DFD-4219-9D34-1FA0131EF709}
 	EndGlobalSection
 EndGlobal
