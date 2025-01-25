@@ -1,7 +1,7 @@
 ﻿namespace Day3;
-public static class GenericShapesAreaCalculator
+public static class GenericShapesAreaCalculator<TShape> where TShape : IShape
 {
-    public static double CalculateArea<T>(T shape) where T : IShape
+    public static double CalculateArea(TShape shape)
     {
         return shape.GetArea();
     }

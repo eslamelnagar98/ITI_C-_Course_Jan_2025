@@ -21,6 +21,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3", "Day3\Day3.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalCodeDemo", "ExternalCodeDemo\ExternalCodeDemo.csproj", "{6A120C02-908B-4ED9-A365-4649874A1277}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayFive", "DayFive\DayFive.csproj", "{C36FCD2E-AA99-40CB-9AE3-0FC01F942781}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DayThree", "DayThree", "{15517586-0992-462C-971D-9A3BF8E87111}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\ielnaggar\Downloads\Assignment_(Generic_Currency_Range)_.pdf = ..\..\Users\ielnaggar\Downloads\Assignment_(Generic_Currency_Range)_.pdf
+		..\..\Users\ielnaggar\Downloads\Day_Three.pdf = ..\..\Users\ielnaggar\Downloads\Day_Three.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,11 +55,16 @@ Global
 		{6A120C02-908B-4ED9-A365-4649874A1277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A120C02-908B-4ED9-A365-4649874A1277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A120C02-908B-4ED9-A365-4649874A1277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36FCD2E-AA99-40CB-9AE3-0FC01F942781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36FCD2E-AA99-40CB-9AE3-0FC01F942781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36FCD2E-AA99-40CB-9AE3-0FC01F942781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36FCD2E-AA99-40CB-9AE3-0FC01F942781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DE224C79-1A94-497B-987E-9CD8DE94D764} = {C8FBB631-1DFD-4219-9D34-1FA0131EF709}
+		{15517586-0992-462C-971D-9A3BF8E87111} = {C8FBB631-1DFD-4219-9D34-1FA0131EF709}
 	EndGlobalSection
 EndGlobal
