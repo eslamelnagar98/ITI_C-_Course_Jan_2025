@@ -362,3 +362,7 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /ExternalCodeDemo/ExternalCodeDemo.csproj
+/ExternalCodeDemo/ExternalCodeDemo.csproj
+
+/ExternalCodeDemo/
+
