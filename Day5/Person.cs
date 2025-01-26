@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace DayFive;
+namespace Day5;
 public sealed class Person : IEquatable<Person>
 {
     public required string Firstname { get; init; }

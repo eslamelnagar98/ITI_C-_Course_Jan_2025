@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DayTwo", "DayTwo", "{DE224C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3", "Day3\Day3.csproj", "{B186CC07-89A7-4BB3-9A85-665B5C8F4A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayFive", "DayFive\DayFive.csproj", "{C36FCD2E-AA99-40CB-9AE3-0FC01F942781}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day5", "Day5\Day5.csproj", "{C36FCD2E-AA99-40CB-9AE3-0FC01F942781}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DayThree", "DayThree", "{15517586-0992-462C-971D-9A3BF8E87111}"
 	ProjectSection(SolutionItems) = preProject
@@ -28,6 +28,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DayThree", "DayThree", "{15
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalCodeDemo", "ExternalCodeDemo\ExternalCodeDemo.csproj", "{D82E041D-CA78-4640-9857-FEE040C200AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DayFive", "DayFive", "{BC4D82A3-3100-4DF7-A5DC-815CB6F8A73D}"
+	ProjectSection(SolutionItems) = preProject
+		Resouces\DayFive\Collections-2025-01-17-1141.excalidraw = Resouces\DayFive\Collections-2025-01-17-1141.excalidraw
+		Resouces\DayFive\Day5_Advanced_Multi-Resource_Management.pdf = Resouces\DayFive\Day5_Advanced_Multi-Resource_Management.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,5 +72,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DE224C79-1A94-497B-987E-9CD8DE94D764} = {C8FBB631-1DFD-4219-9D34-1FA0131EF709}
 		{15517586-0992-462C-971D-9A3BF8E87111} = {C8FBB631-1DFD-4219-9D34-1FA0131EF709}
+		{BC4D82A3-3100-4DF7-A5DC-815CB6F8A73D} = {C8FBB631-1DFD-4219-9D34-1FA0131EF709}
 	EndGlobalSection
 EndGlobal

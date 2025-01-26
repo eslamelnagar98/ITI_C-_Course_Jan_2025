@@ -1,10 +1,8 @@
 ﻿using System.Collections;
-using System.ComponentModel.DataAnnotations;
 
-namespace DayFive;
+namespace Day5;
 public class People(int capacity) : IEnumerable<Person>
 {
-    [Required]
     public int MyProperty { get; set; }
     private readonly List<Person> _people = new(capacity: capacity);
     public IEnumerator<Person> GetEnumerator()
